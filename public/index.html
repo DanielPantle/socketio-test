@@ -1,11 +1,22 @@
 <!DOCTYPE html>
 <html lang="de">
-    <head>
-        <meta charset="utf-8">
-        <title>socket.io-Test</title>
-    </head>
-    <body>
-        <h1>Test</h1>
-        <p>Hallo.</p>
-    </body>
+<head>
+    <meta charset="utf-8">
+    <title>WebSocket</title>
+
+    <script src="../socket.io/socket.io.js" charset="utf-8"></script>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <div id="chat">
+        <div id="chat-window">
+            <div id="output"></div>
+        </div>
+        <input id="handle" type="text" placeholder="Handle" />
+        <input id="message" type="text" placeholder="Message" />
+        <button id="send">Send</button>
+    </div>
+
+    <script src="/chat.js" charset="utf-8"></script>
+</body>
 </html>

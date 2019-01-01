@@ -1,25 +1,18 @@
 {
-  "name": "socketio-test",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/DanielPantle/socketio-test.git"
-  },
-  "author": "daniel",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/DanielPantle/socketio-test/issues"
-  },
-  "homepage": "https://github.com/DanielPantle/socketio-test#readme",
-  "dependencies": {
-    "express": "^4.16.4"
-  },
-  "scripts": {
-    "start": "node index.js"
-  }
+    "name": "nodejs",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "daniel",
+    "license": "ISC",
+    "dependencies": {
+        "express": "^4.16.4",
+        "socket.io": "^2.2.0"
+    },
+    "devDependencies": {
+        "nodemon": "^1.18.9"
+    }
 }
